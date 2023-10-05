@@ -61,3 +61,25 @@ td{
     padding: 8px 4px;
     font-size: 18px;
 }
+/* success popup  */
+div:where(.swal2-icon).swal2-success .swal2-success-ring {
+    border: 0.25em solid rgba(165,220,134,.4) !important;
+}
+/* wrong popup  */
+div:where(.swal2-container)
+div:where(.swal2-popup){
+    background: black !important;
+}
+.swal2-title{
+    color: white;
+}
+div:where(.swal2-icon).swal2-error {
+    border-color: #d12e2e !important;
+    color: #d12e2e !important;
+}
+div:where(.swal2-icon).swal2-error [class^=swal2-x-mark-line]{
+    background-color: #d12e2e !important;
+}
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm{
+    background-color: #0072f5 !important;
+}
